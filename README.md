@@ -1,2 +1,6 @@
 # simpleblog
-Simple and minimal design nice for blogs
+Simple and minimal theme using bootstrap.
+ 
+
+## License
+See the LICENSE file, this project is licensed under MIT license.

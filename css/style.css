@@ -1,0 +1,130 @@
+html, body, .row, .container-fluid {
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: dodgerblue;
+}
+
+a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+hr {
+    border-top: 1px solid lightgrey;
+}
+
+legend {
+    border-bottom: 1px solid lightgrey;
+}
+
+pre, code {
+    font-family: 'Source Code Pro', monospace;
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.col-md-2 {
+    height: 100%;
+    background: url("../images/tweed.png");
+    /*background-color: navy;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 0 20px #888;
+}
+
+.col-md-2 * {
+    color: darkgrey;
+}
+
+.col-md-2 a {
+    color: lightgray;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.col-md-2 a:hover {
+    color: white;
+}
+
+.social {
+    text-align: center;
+}
+
+.social .fa {
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
+
+.social .fa:hover {
+    color: darkgrey;
+}
+
+#name {
+    color: white;
+}
+
+.footer {
+    padding: 20px 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.title.desc {
+    display: inline-block;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.title.desc i {
+    padding-right: 5px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+@media screen and (max-width: 991px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    #sidenav {
+        text-align: center;
+    }
+    html, body, .row, .container-fluid {
+        height: auto;
+    }
+}
+/*Sticky sidenav*/
+@media screen and (min-width: 992px) {
+    #name {font-size: 3.3vw;}
+    .col-md-2 {
+        position: fixed;
+        width: 17%;
+        z-index: 1;
+    }
+    .col-md-10 {
+        /*width: 100%;*/
+        margin-left: 16.5%;
+    }
+}
