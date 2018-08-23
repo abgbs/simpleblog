@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 narrow">
+                <div id="sidenav">
+                    {% include sidenav.html %}
+                </div>
+            </div>
+            <div id="wide" class="col-md-10">
+                <div class="content">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <script id="dsq-count-scr" src="https://{{ site.disqus_shortname }}.disqus.com/count.js" async></script>
+</body>
+
+</html>
