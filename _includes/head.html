@@ -19,7 +19,7 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 <!-- My Style -->
-<link href="/assets/main.css" rel="stylesheet">
+<link href="{{ "/assets/main.css" | relative_url }}" rel="stylesheet">
 <title>
     {% if page.title %} {{ page.title }}
     {% else %} {{ site.title }}
