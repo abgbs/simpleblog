@@ -42,7 +42,7 @@ sidenav:
 #   links:
 #     - https://twitter.com/YOUR-TWITTER-USERNAME
 #     - https://github.com/YOUR-GITHUB-USERNAME
-# disqus_shortname:"DISQUS-SHORTNAME"
+# disqus_shortname: "DISQUS-SHORTNAME"
 # google_analytics: "GOOGLE-ANALYTICS-ID"
 theme: simpleblog
 
