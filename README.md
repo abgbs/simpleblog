@@ -24,6 +24,8 @@ Or install it yourself as:
 
     $ gem install simpleblog
 
+To install it to your Github pages copy all the contents to your page.
+
 ## Usage
 
 To build the theme as a gem file run `gem build simpleblog.gemspec`.
