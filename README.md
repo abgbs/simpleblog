@@ -4,6 +4,8 @@ Simpleblog is a Jekyll theme created mainly for learning purposing. The theme is
 
 ## Installation
 
+First, build the theme as a gem file run `gem build simpleblog.gemspec`.
+
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
@@ -20,15 +22,10 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install simpleblog
-
+OR
 To install it to your Github pages copy all the contents to your page.
 
 ## Usage
-
-To build the theme as a gem file run `gem build simpleblog.gemspec`.
 
 There are there layouts:
 - default - this is the main layout that other layouts depends on.
