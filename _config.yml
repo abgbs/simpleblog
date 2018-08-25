@@ -44,7 +44,7 @@ sidenav:
 #     - https://github.com/YOUR-GITHUB-USERNAME
 # disqus_shortname: "DISQUS-SHORTNAME"
 # google_analytics: "GOOGLE-ANALYTICS-ID"
-#theme: simpleblog
+# theme: simpleblog
 
 # Dirs
 layout_dir: _layouts

@@ -9,7 +9,7 @@ First, build the theme as a gem file run `gem build simpleblog.gemspec`.
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "simpleblog"
+gem "simpleblog", :path => ""
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
