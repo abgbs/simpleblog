@@ -19,7 +19,7 @@ email: email@example.com
 description: > # this means to ignore newlines until "baseurl:"
   Your description goes here!
 baseurl: "/simpleblog" # the subpath of your site, e.g. /blog
-url: "https://example.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://aymanbagabas.com" # the base hostname & protocol for your site, e.g. http://example.com
 sidenav:
 #   about: 
 #     title: "About me"
